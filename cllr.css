@@ -73,10 +73,6 @@ li{
     grid-template-columns: 1fr;
 }
 
-#sobre-bot .titulo-principal{
-    margin-left:0%;
-    font-size: 1.1rem;
-}
 
 #sobre-bot .paragrafo-apresentacao{
     font-size: 0.9rem;
@@ -85,6 +81,20 @@ li{
 
 
 @media screen and (max-width: 670px) {
+    #apresentacao .titulo-principal{
+        font-size: 2.9rem;
+    }
+    
+    #subtitulo{
+        font-size: 1.2rem;
+        font-family: 'Cinzel', serif;
+        letter-spacing: 3px;
+    }
+
+    #apresentacao .paragrafo-apresentacao{
+        font-size: 1.0rem;
+    }
+
     #sobre-container{
         width: 100%;
     }
@@ -93,6 +103,11 @@ li{
         color: whitesmoke;
         font-size: 1.0rem;
 
+    }
+
+    #sobre-bot .titulo-principal{
+        margin-left:0%;
+        font-size: 1.5rem;
     }
 
     
@@ -123,11 +138,18 @@ li{
         width: 100%;
     }
 
+    #sobre-bot .titulo-principal{
+        margin-left:0%;
+        font-size: 1.1rem;
+    }
+
     #sobre-bot .paragrafo-apresentacao{
         color: whitesmoke;
         font-size: 0.6rem;
 
     }
+
+
 
     
 }
