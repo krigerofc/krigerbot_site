@@ -131,7 +131,7 @@ li{
 
     
     #apresentacao .paragrafo-apresentacao{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     
     #sobre-container{
@@ -145,7 +145,7 @@ li{
 
     #sobre-bot .paragrafo-apresentacao{
         color: whitesmoke;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
 
     }
 
@@ -159,5 +159,5 @@ li{
 }
 
 #rodape .titulo-principal{
-    font-size: 0.3rem;
+    font-size: 0.4rem;
 }
