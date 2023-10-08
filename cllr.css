@@ -75,10 +75,11 @@ li{
 
 #sobre-bot .titulo-principal{
     margin-left:0%;
+    font-size: 1.1rem;
 }
 
 #sobre-bot .paragrafo-apresentacao{
-    font-size: 1.0rem;
+    font-size: 0.9rem;
 }
 
 
@@ -100,7 +101,7 @@ li{
 
 @media screen and (max-width: 570px) {
     #apresentacao .titulo-principal{
-        font-size: 2.1rem;
+        font-size: 2.0rem;
         justify-items: center;
         align-items: center;
         padding-right: 0%;
@@ -108,14 +109,14 @@ li{
     }
     
     #subtitulo{
-        font-size: 1.1rem;
+        font-size: 1.0rem;
         font-family: 'Cinzel', serif;
         letter-spacing: 3px;
     }
 
     
     #apresentacao .paragrafo-apresentacao{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     
     #sobre-container{
@@ -124,7 +125,7 @@ li{
 
     #sobre-bot .paragrafo-apresentacao{
         color: whitesmoke;
-        font-size: 0.9rem;
+        font-size: 0.6rem;
 
     }
 
@@ -136,5 +137,5 @@ li{
 }
 
 #rodape .titulo-principal{
-    font-size: 0.5rem;
+    font-size: 0.3rem;
 }
