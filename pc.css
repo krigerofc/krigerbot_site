@@ -167,6 +167,12 @@ li{
     font-size: 2.6rem;
 }
 
+#sobre-bot .paragrafo-apresentacao{
+    overflow: visible;
+    font-size: 1.2rem;
+}
+
+
 @media screen and (max-width: 1450px) {
 
     .paragrafo-apresentacao{

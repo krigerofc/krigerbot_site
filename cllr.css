@@ -1,0 +1,140 @@
+
+
+#container-nav{
+    height: 190px
+
+}
+
+#nav-box{
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 100);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.headline{
+    font-size: 1.5rem;
+     }
+
+li{
+    padding: 10px;
+    display: block;
+    font-size: 1.3rem;
+}
+
+#nav-itens{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+#nav-itens li:nth-child(2){
+    border-top: 1px solid rgb(46, 44, 44);
+    border-bottom: 1px solid rgb(46, 44, 44);
+}
+
+#showcase{
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-items: center;
+    align-items: center;
+}
+
+#showcase-container{
+    height: 21%;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#apresentacao{
+    justify-items: center;
+    align-items: center;
+    padding-right: 0%;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+
+#apresentacao .paragrafo-apresentacao{
+    font-size: 1.2rem;
+}
+
+#dicas{
+    overflow: hidden;
+    visibility: hidden;
+}
+
+
+#sobre-container{
+    column-gap: 0px;
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+
+#sobre-bot .titulo-principal{
+    margin-left:0%;
+}
+
+#sobre-bot .paragrafo-apresentacao{
+    font-size: 1.0rem;
+}
+
+
+
+@media screen and (max-width: 670px) {
+    #sobre-container{
+        width: 100%;
+    }
+
+    #sobre-bot .paragrafo-apresentacao{
+        color: whitesmoke;
+        font-size: 1.0rem;
+
+    }
+
+    
+}
+
+
+@media screen and (max-width: 570px) {
+    #apresentacao .titulo-principal{
+        font-size: 2.1rem;
+        justify-items: center;
+        align-items: center;
+        padding-right: 0%;
+        text-shadow: 2px 2px 2px black;
+    }
+    
+    #subtitulo{
+        font-size: 1.1rem;
+        font-family: 'Cinzel', serif;
+        letter-spacing: 3px;
+    }
+
+    
+    #apresentacao .paragrafo-apresentacao{
+        font-size: 0.9rem;
+    }
+    
+    #sobre-container{
+        width: 100%;
+    }
+
+    #sobre-bot .paragrafo-apresentacao{
+        color: whitesmoke;
+        font-size: 0.9rem;
+
+    }
+
+    
+}
+#fotos-bot{
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#rodape .titulo-principal{
+    font-size: 0.5rem;
+}
